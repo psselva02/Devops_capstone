@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+ web:
+    image: psselva02/dev:v1
+    ports:
+      - "80:80"
+    restart: always
